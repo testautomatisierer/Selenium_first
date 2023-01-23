@@ -32,8 +32,10 @@ public class VerticalCheckModules {
         try{
             Thread.sleep(1000);
         }
+
         catch(InterruptedException ie){
         }
+
 
         // Open Module STORNIERT
         driver.findElement(By.id("CXMaskMenu_LinkButtonApp_530000294")).click();
